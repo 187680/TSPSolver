@@ -10,5 +10,5 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - elastic_nets
-  - self_organizing_map
+  - python elastic_nets.py
+  - python self_organizing_map.py
